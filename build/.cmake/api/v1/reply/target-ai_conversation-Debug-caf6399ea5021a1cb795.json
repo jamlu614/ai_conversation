@@ -1,0 +1,333 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ai_conversation"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_directories",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -O2 -std=gnu++11  -fno-omit-frame-pointer -Wno-unused-command-line-argument  -g  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-O0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/user_space/rtcpush/ai_conversation/ffmpeg/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/user_space/rtcpush/ai_conversation/ /user_space/rtcpush/ai_conversation/common"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/user_space/rtcpush/ai_conversation/common/file_parser"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/http_parser/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/json_parser/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/opusfile_parser/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/user_space/rtcpush/ai_conversation"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/user_space/rtcpush/ai_conversation/agora_sdk/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "ai_conversation::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2 -std=gnu++11  -fno-omit-frame-pointer -Wno-unused-command-line-argument  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--disable-new-dtags,-rpath=$ORIGIN/agora_sdk:$ORIGIN/ffmpeg/lib",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/user_space/rtcpush/ai_conversation/agora_sdk",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/user_space/rtcpush/ai_conversation/ffmpeg/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/user_space/rtcpush/ai_conversation/agora_sdk:/user_space/rtcpush/ai_conversation/ffmpeg/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavformat",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavdevice",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavcodec",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavutil",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavfilter",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lswresample",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lswscale",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrockchip_mpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lasound",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora_rtc_sdk",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora_rtm_sdk",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora-core",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora-fdkaac",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora-ffmpeg",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lagora-soundtouch",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lyuv",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSDL2-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcurl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lmosquitto",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-linih",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lspeexdsp",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ai_conversation",
+	"nameOnDisk" : "ai_conversation",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sample_send_h264_pcm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "video_encode_camera2h264.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/helper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/opt_parser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/sample_common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/sample_connection_observer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/sample_event.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/sample_local_user_observer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "common/yuv_capture.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

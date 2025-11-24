@@ -1,0 +1,3 @@
+/user_space/rtcpush/ai_conversation/build/CMakeFiles/rebuild_cache.dir
+/user_space/rtcpush/ai_conversation/build/CMakeFiles/edit_cache.dir
+/user_space/rtcpush/ai_conversation/build/CMakeFiles/ai_conversation.dir

@@ -1,0 +1,14 @@
+prefix=/user_space/rtcpush/ffmpeg-rockchip/out
+exec_prefix=${prefix}
+libdir=/user_space/rtcpush/ffmpeg-rockchip/out/lib
+includedir=/user_space/rtcpush/ffmpeg-rockchip/out/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -ldrm -L/usr/local/lib -lrockchip_mpp -latomic
+Cflags: -I${includedir}

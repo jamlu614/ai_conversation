@@ -1,0 +1,8 @@
+# 用户设置
+[user]
+version = 1
+app_id = 4dfbb27cc2a64ac9b43135be289a858e
+app_certificate = 0abbf21056df4efabd4b1a66528f75c1
+authorization = OTJjNjBhNzI3YTI3NDBlZjllNjIwNDczNDEwMmE1NmQ6YzUzNTE2YzJlZDhiNDc0MmE2OGNiM2M0M2JmYzBkZGE=
+channel_name = test_gac_cname
+audio_dev = plughw:2,0
